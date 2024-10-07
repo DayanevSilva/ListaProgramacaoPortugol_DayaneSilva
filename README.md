@@ -1,1 +1,1 @@
-"# Meu repo de Lista de Programaá∆o em Portugol" 
+"# Meu repo de Lista de Programa√ß√£o em Portugol" 
