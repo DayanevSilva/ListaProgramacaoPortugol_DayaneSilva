@@ -1,6 +1,6 @@
 programa
 {
-	inclua biblioteca Calendario
+	inclua biblioteca Calendario
 	funcao inicio()
 	{
 		cadeia nome,texto = ""
@@ -15,17 +15,18 @@ programa
 		
 		escreva("Digite seu nome: \n")
 		leia (nome)
-		escreva("Digite seu ano de nascimento: \n")
+		escreva("Digite seu ano de nascimento: \n")
 		leia (anoNascimento)
 
 		idade = anoAtual - anoNascimento
 
-		texto = nome + ", você tem " + idade + " anos e é"
+		texto = nome + ", você tem " + idade + " anos e é "
 		
 		se (idade >= 18) {
-    		texto += MAIORIDADE
-		}senao se(idade <= 17){
-    		texto += MENORIDADE
+			escreva(texto += MAIORIDADE)
+		}senao se(idade <= 17)
+		 {
+		 	escreva(texto += MENORIDADE)
 		}
 	}
 }
@@ -35,7 +36,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 37; 
+ * @POSICAO-CURSOR = 504; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
