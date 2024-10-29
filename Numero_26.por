@@ -11,7 +11,7 @@ programa
 
 		result = X
 		parcial = X
-		escreva("O cálculo de ", X, "elevado a ", Y, " é:\n")
+		escreva("O cálculo de ", X, " elevado a ", Y, " é:\n")
 
 		para (inteiro i = 1; i < Y; i++)
 		{
@@ -28,7 +28,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 155; 
+ * @POSICAO-CURSOR = 212; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
